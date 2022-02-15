@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main()
+{
+    std::cout << "This application add 2 numbers.\n";
+    int firstNumber=0, secondNumber=0, thirdNumber=0;
+    
+    std::cout <<"Enter your first number\n";
+    std::cin >> firstNumber;
+    
+    std::cout <<"Enter your second number\n";
+    std::cin >> secondNumber;
+    
+    std::cout <<"Enter your third number\n";
+    std::cin >> thirdNumber;
+    
+    int result = firstNumber + secondNumber + thirdNumber;
+    
+    std::cout << "The sum of the three numbers is: " << result;
+    
+}
