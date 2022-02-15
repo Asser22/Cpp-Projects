@@ -1,0 +1,26 @@
+#include <iostream>
+
+int main()
+{
+    // Welcome user to application.
+    std::cout << "Welcome to math calculation \n";
+    
+    // Declare your variables.
+    int firstNumber, secondNumber, thirdNumber, result;
+    
+    // Read variable from user
+    std::cout << "Please enter first number\n";
+    std::cin >> firstNumber;
+    
+    std::cout << "Please enter second number\n";
+    std::cin >> secondNumber;
+    
+    std::cout << "Please enter third number\n";
+    std::cin >> thirdNumber;
+    
+    // Make math calculation.
+    result = firstNumber*secondNumber+thirdNumber;
+    
+    // Print output to user.
+    std::cout << "The result is " << result;
+}
