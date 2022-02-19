@@ -1,0 +1,31 @@
+#include <iostream>
+
+int main()
+{
+    std::cout << "Please enter value 1: ";
+    double Var1;
+    std::cin >> Var1;
+    
+    std::cout << "Please enter value 2: ";
+    double Var2;
+    std::cin >> Var2;
+    
+    //double Var2{7};
+    //auto variableName{false} here the compiler will know that the variableName is boolean
+    
+    std::cout << "Variable 1 is " <<Var1 << "\n";
+    std::cout << "Variable 2 is " <<Var2 << "\n";
+    
+    auto Var3{0};
+    // Set value 2 in value 3.
+    Var3 = Var2;
+    // Set value 1 in value 2.
+    Var2 = Var1;
+    // Set stored value 2 in (value 3) in value 1.
+    Var1 = Var3;
+    
+    std::cout << "After swapping the two variables value\n";
+    std::cout << "Variable 1 is " <<Var1 << "\n";
+    std::cout << "Variable 2 is " <<Var2 << "\n";
+    
+}
