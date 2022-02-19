@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+
+int main()
+{
+    //NUMBERS
+    std::cout << "Hello World!\n";
+    
+    int Number1 = 0;
+    std::cout << sizeof(int);
+    
+    std::cout << "\n";
+    
+    long Number2 = 0;
+    std::cout << sizeof(long);
+    
+    std::cout << "\n";
+    
+    float Number3 = 0;
+    std::cout << sizeof(float);
+    
+    std::cout << "\n";
+    
+    double number4 = 0;
+    std::cout << sizeof(double);
+    //NUMBERS
+    
+    //CHARACTERS
+    char character = 'c';
+    
+    //STRING
+    std::string sentence = "Learning C++";
+    
+    //BOOLEAN
+    bool islogic = true;
+    
+    
+    //So we have 3 types of variables numbers, boolean(logical variable), strings
+
+}
