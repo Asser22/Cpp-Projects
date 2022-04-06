@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    cout<<"Please enter your name\n";
+    string UserName = "";
+    //read all the line
+    getline(cin, UserName);
+    UserName = "Hi "+ UserName;
+    cout << UserName;
+    
+}
