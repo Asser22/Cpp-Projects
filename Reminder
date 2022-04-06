@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Welcome message 
+    cout << "Welcome to reminder application \n";
+    //ask user to enter values
+    cout << "Please enter value 1 and value 2 \n";
+    //declare variables
+    int FirstValue{0}, SecondValue{0}, Result{0};
+    //take input from user
+    cin >> FirstValue >> SecondValue;
+    //perform the operation
+    //print result to user
+    cout << FirstValue % SecondValue;
+    
+}
