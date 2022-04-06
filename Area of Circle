@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Welcome message 
+    cout << "Welcome to calculate the Area of Circle\n";
+    //ask user to enter values
+    cout << "Please enter radius of circle\n";
+    //declare variables
+    float AreaRadius{0}, Result{0};
+    const float ConstValue = 3.14;
+    cin >>  AreaRadius;
+    //make operation
+    Result = ConstValue * AreaRadius * AreaRadius;
+    //print output
+    cout << "Area is " << Result;
+    
+}
